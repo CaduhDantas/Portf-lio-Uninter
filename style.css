@@ -1,0 +1,124 @@
+
+body{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #5A80E6; 
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+/*#5F5AE6;*/
+
+h1{
+    color: #8855df;
+}
+
+.links a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    transition: color 0.4s ease; /* transição suave na cor em 0.3 segundos */
+    transition: background-color 0.7s ease;
+   
+}
+
+p{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: #FA46F8;
+    border-radius: 5px;
+    background-color: #a67eecdc;
+}
+
+.links{
+  background-color: #8D5AE6;
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  box-shadow: black;
+  margin-bottom: 30px;
+  border: 2px solid #5f3b9cec;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+  display: flex; /* transforma em flex container */
+  justify-content: center;/* centraliza horizontalmente os itens */
+  border-radius: 10px;
+} 
+#perfil{
+    background-color: #dadada;
+    width: 600px;
+    height:300px;
+    border-radius: 20px;
+    border: 0.1px solid rgba(0, 0, 0, 0.363);
+    align-items: center;
+    display: flex; 
+}
+
+#ftpri{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 35px;
+    border: 2px solid #BB5AE6;
+
+}
+h1#ftseg{
+    margin-left: 60px;
+}
+#ftseg{
+    height: 160px;
+    width: 260px;
+    border-radius: 10px;
+    border: 2px solid #bc5ae650;
+    margin-left: 15px;
+}
+
+#img3{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+}
+
+#linkgit{
+text-decoration: none;
+color: rgb(65, 116, 192);
+}
+
+#cttt{
+    margin-left: 70px;
+}
+
+#ptf{
+    margin-left: 160px;
+}
+#ptf1{
+    margin: 20px;
+}
+#ptf2{
+    margin-left: 220px;
+}
+.login img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+     transition: transform 0.3s ease;
+}
+
+.login img:hover{
+ transform: scale(1.05);
+ box-shadow: 0 0 20px 5px #BB5AE6;
+}
